@@ -186,7 +186,6 @@ input{
     width: 100vw;
     padding: 120px 0px 0px;
 }
-
 .icon-pg3{
     width: 32px;
     height: 32px;
@@ -198,7 +197,6 @@ input{
     margin-bottom: 15px;
     
 }
-
 .contenedormenor-pg3{
     display: flex;
     align-items: center;
@@ -207,7 +205,7 @@ input{
     margin-right: 30px;
     width: 100%;
     gap: 100px;
-    padding-top: 10px ;
+    padding-top: 10px;
 }
 .tercerfondo h2{
     text-align: center;
@@ -250,9 +248,67 @@ input{
 }
 .contenedor-pg4{
     display: flex;
+    height: 100%;
 }
-.contenedortitulo-pg4{
-    
+.contenedormenor-pg4{
+    display: flex;
+    gap: 20px;
+    height: 80%;
+    margin: 0;
+    padding: 0;
+}
+
+.cuartofondo h2{
+    color: white;
+    font-size: 38px;
+    margin: 0px 15px 24px 15px;
+    text-align: left;
+    font-weight: 600;
+}
+
+.caja-pg4{
+    background-color: white;
+    border-radius: 5%;
+    border: 1px solid #ecebec;
+    padding: 48px 24px;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+
+}
+.caja-pg4 h4{
+    font-size: 24px;
+    margin: 0px 0px 12px;
+    color: #343537;
+    font-weight: 100;
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Helvetica Neue", arial, sans-serif;
+    padding-bottom: auto;
+    margin: 0;
+}
+.cajaspan-pg4{
+    margin-top: 54px;
+}
+
+.cajaspan-pg4 p{
+    font-size: 18px;
+    color: #343537;
+    margin: 0;
+    margin-bottom: 5px;
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Helvetica Neue", arial, sans-serif;
+}
+.cajaspan-pg4 a{
+    color: #0050c3;
+    font-size: 14px;
+    padding: 0px 0px 3px;
+    font-weight: 600;
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Helvetica Neue", arial, sans-serif;
+}
+.item-pg4{
+    font-size: 120px;
+    height: 50px;
+    padding-bottom: 20px;
+    margin-left: -3px;
+    color: #171e43;
 }
 
 .quintofondo{
@@ -299,13 +355,12 @@ input{
     font-size: 14px;
     margin-top: 32px;
 }
-.sextofondo{    
+.sextofondo{
     background-color: white;
     height: 100vh;
     width: 100vw;
     padding: 60px 0px;
 }
-
 .contenedor-pg6{
     display: flex;
     align-items: center;
@@ -316,22 +371,29 @@ input{
     margin-right: -120px;
     padding: 0px 13,5px 0px 13,5px;
 }
-.imagenseÃ±orainfluencer{
+.main-photo-pg6{
     max-width: 60%;
     height: auto;
 }
 .contenedortexto-pg6{
     margin-right: 50px;
 }
-
 .titulo-pg6{
     margin: 0px 0px 24px;
     color: #171E43;
-    font-size: 30px;
+    font-size: 32px;
+    font-weight: 600;
+    font-family:'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Helvetica Neue", arial, sans-serif;
 }
 .p-pg6{
     font-size: 18px;
     color: #343537;
+    font-weight: 400;
+    margin-left: -20px;
+    font-family:'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Helvetica Neue", arial, sans-serif;
+}
+.urgent-correction{
+    margin-left: -20px;
 }
 .sextofondo .boton-secundario{
     text-decoration: none;
@@ -339,49 +401,64 @@ input{
     align-items: center;
     transition: 0.2s;
     padding: 10px 24px;
+    margin-top: 32px;
     border: 1px solid #0050c3;
+    font-family:'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Helvetica Neue", arial, sans-serif;
 }
 
 .septimofondo{
     background-color: white;
     height: 100vh;
     width: 100vw;
-    padding: 120px 0px 0px;
+    padding: 300px 0px;
 }
-
 .contenedor-pg7{
     display: flex;
-    max-width: 1200px;         
-    gap: 60px;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    gap: 40px;
 }
 .contenedortexto-pg7{
-    font-size: 30px;
-    padding: 13.5px;
+    font-size: 25px;
+    width: 100%;
     color:#171E43;
+    font-family:'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Helvetica Neue", arial, sans-serif;
+    justify-content: right;
 }
-.contenedormayor-pg7{
-    display: block;
+.contenedor-pg7 h2{
+    font-weight: 500;
+}
+.contenedorpreguntas-pg7{
+    margin-bottom: 10px;
+    display: flex;
     flex-direction: column;
-    margin-left: 500px;
+    margin-left: 110px;
 }
-
 .preguntas-pg7{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     color:#171E43;
     font-size: 24px;
-    font-weight: 600px;
+    font-weight: 400px;
+    padding: 15px 0;
+    font-family:'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Helvetica Neue", arial, sans-serif;
 }
 .respuestas-pg7{
-    color: #171E43;
+    color: #343537;
     font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 15px;
+    font-family:'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Helvetica Neue", arial, sans-serif;
 }
-
 .preguntasyrespuestas-pg7{
-    margin: 5px;
+    margin-bottom: 20px;
 }
-
-
-
-
+.respuestas-pg7 a{
+    text-decoration: none;
+    color: #0050c3;
+}
 
 .conteinermayor{
     margin: 24px;
